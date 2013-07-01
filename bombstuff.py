@@ -1,8 +1,4 @@
-import sys, curses, time, myGetCh #to be added to
-''' Start intro. WIP. '''
-print 'Welcome to ...'
-time.sleep(3)
-print 'A game about exploding bananas with guns!' #WIP line there
-print 'Press enter to continue.',
-raw_input()
-''' End intro. WIP. '''
+import sys, curses, time, myGetCh,bombStuffInfo as bsi #to be added to
+bsi.intro()
+print 'You can now use commands. Type in ? for help.'
+bsi.s_q(0, 0, 0, 0)
